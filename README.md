@@ -86,3 +86,27 @@ options nvidia-drm modeset=1
 
 Thats all!!
 
+### Opcional: if nouveau is giving you Headaches, !!Only!
+
+With
+
+```
+blacklist nouveau
+```
+
+in
+
+```
+/etc/modprobe.d/nouveau.conf
+```
+
+regenerat your initramfs with
+
+```
+mkinitcpio -p linux
+```
+
+Nouveau definitely shouldn't be used.
+
+Chau1
+
