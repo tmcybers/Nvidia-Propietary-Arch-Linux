@@ -91,7 +91,7 @@ Thats all!!
 With
 
 ```
-blacklist nouveau
+modprobe.blacklist=nouveau
 ```
 
 in
